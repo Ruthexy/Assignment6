@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: navajowhite
+}
+
+.container {
+    padding: 100px 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 300;
+}
+
+h1 span {
+    font-weight: 600;
+}
+
+.student-id {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 20px;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.assignments {
+    margin-top: 30px;
+}
+
+.botton-link {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    color: teal;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
